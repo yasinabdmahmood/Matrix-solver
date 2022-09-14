@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.matrix-sive{
+    margin-bottom: 2rem;
+}
+.container {
+   
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    grid-template-rows: repeat(4, 1fr );
+    
+}
+
+.container div{
+    width: 100%;
+}
+.container div input{
+    padding: 1rem;
+    font-size: 1rem;
+    width: 90%;
+}
+
+#calculate{
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 25px;
+}
+.result{
+    margin-top: 25px;
+    padding: 1rem;
+   
+    border: 1px solid black;
+}
+.result span{
+    font-size: 1.5rem;
+}
